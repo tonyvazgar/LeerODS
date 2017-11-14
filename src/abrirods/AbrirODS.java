@@ -7,7 +7,7 @@ import org.jopendocument.dom.spreadsheet.Sheet;
 import org.jopendocument.dom.spreadsheet.SpreadSheet;
 
 public class AbrirODS {
-    public void leer(File file){
+    public void leer(File file){ 
         Sheet sheet;
         try{
             sheet = SpreadSheet.createFromFile(file).getSheet(0);
